@@ -3,11 +3,11 @@ import React from 'react';
 import { ImInstagram} from 'react-icons/im';
 
 const Socials = () => {
-  return <div className='hidden x1:flex ml-24'>
+  return <div className='hidden lg:flex ml-24'>
     <ul className='flex gap-x-4'>
       <li>
         <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
-          <ImInstagram className='text-2x1 text-[#696c6d] hover:text-primary transition'/>
+          <ImInstagram className='text-2xl text-[#696c6d] hover:text-primary transition'/>
         </a>
       </li>
     </ul>
