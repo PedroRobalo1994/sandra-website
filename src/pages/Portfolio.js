@@ -21,7 +21,7 @@ const Portfolio = () => {
             <br/>
             <p className='p-1' >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </p>
-            <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Hire me</Link>
+            <Link to={'sandra-website/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Hire me</Link>
           </motion.div>
           {/* image grid */}
           <div className='grid grid-cols-2 lg:gap-2'>
