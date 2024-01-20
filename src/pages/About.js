@@ -22,7 +22,7 @@ const About = () => {
           <br/>
           <p className='p-1' >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </p>
-          <Link to={'sandra-website/portfolio'} className='btn mt-8'>View my work</Link>
+          <Link to={'/portfolio'} className='btn mt-8'>View my work</Link>
         </motion.div>
       </div>
     </div>
