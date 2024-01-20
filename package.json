@@ -1,5 +1,6 @@
 {
   "name": "photographer-portfolio",
+  "homepage": "https://pedrorobalo1994.github.io/sandra-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
   },
   "devDependencies": {
     "framer-motion": "^7.6.2",
+    "gh-pages": "^6.1.1",
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.2",
     "react-scroll": "^1.8.8",

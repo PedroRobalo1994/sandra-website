@@ -15,10 +15,10 @@ const Header = () => {
       </Link>
       {/* nav - initialy hidden - show on desktop mode */}
       <nav className='hidden lg:flex  gap-x-12 font-semibold'>
-        <Link to={'/'} className='text-[#696c6d] hover:text-primary transition'>Home</Link>
-        <Link to={'/about'} className='text-[#696c6d] hover:text-primary transition'>About</Link>
-        <Link to={'/portfolio'} className='text-[#696c6d] hover:text-primary transition'>Portfolio</Link>
-        <Link to={'/contact'} className='text-[#696c6d] hover:text-primary transition'>Contact</Link>
+        <Link to={'/'} className='text-[#373D17] hover:text-primary transition'>Home</Link>
+        <Link to={'/about'} className='text-[#373D17] hover:text-primary transition'>About</Link>
+        <Link to={'/portfolio'} className='text-[#373D17] hover:text-primary transition'>Portfolio</Link>
+        <Link to={'/contact'} className='text-[#373D17] hover:text-primary transition'>Contact</Link>
       </nav>
       <Socials/>
       <MobileNav/>
