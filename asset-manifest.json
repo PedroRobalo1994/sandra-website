@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sandra-website/static/css/main.923d89a4.css",
-    "main.js": "/sandra-website/static/js/main.5173202d.js",
+    "main.js": "/sandra-website/static/js/main.e9fc3406.js",
     "static/media/woman.png": "/sandra-website/static/media/woman.85d5b6e726b942f6d6ac.png",
     "static/media/sandra.jpg": "/sandra-website/static/media/sandra.9202f46714c0f2ff44ad.jpg",
     "static/media/2.png": "/sandra-website/static/media/2.f024aaddcc41bf605df4.png",
@@ -11,10 +11,10 @@
     "static/media/logo.svg": "/sandra-website/static/media/logo.01328229bdbe2ffa2606048c6241c917.svg",
     "index.html": "/sandra-website/index.html",
     "main.923d89a4.css.map": "/sandra-website/static/css/main.923d89a4.css.map",
-    "main.5173202d.js.map": "/sandra-website/static/js/main.5173202d.js.map"
+    "main.e9fc3406.js.map": "/sandra-website/static/js/main.e9fc3406.js.map"
   },
   "entrypoints": [
     "static/css/main.923d89a4.css",
-    "static/js/main.5173202d.js"
+    "static/js/main.e9fc3406.js"
   ]
 }
