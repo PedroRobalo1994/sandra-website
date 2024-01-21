@@ -29,10 +29,10 @@ const MobileNav = () => {
       <div onClick={() => setOpenMenu(false)} className='text-3xl absolute z-30 left-4 top-14 text-primary cursor-pointer -mt-5'><IoMdClose/></div>
       {/* menu list */}
       <ul className='h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary font-bold text-3xl'>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/portfolio'>Portfolio</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
+        <li><Link onClick={() => setOpenMenu(false)} to='/'>Home</Link></li>
+        <li><Link onClick={() => setOpenMenu(false)} to='/about'>About</Link></li>
+        <li><Link onClick={() => setOpenMenu(false)} to='/portfolio'>Portfolio</Link></li>
+        <li><Link onClick={() => setOpenMenu(false)} to='/contact'>Contact</Link></li>
       </ul>
     </motion.div>
   </nav>;
