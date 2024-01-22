@@ -6,7 +6,7 @@ import AnimRoutes from './components/AnimRoutes';
 
 const App = () => {
   return (
-    <div className="overflow-auto">
+    <div>
       <Router>
         <Header/>
         <AnimRoutes/>
