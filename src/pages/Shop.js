@@ -9,7 +9,7 @@ import { transition1 } from '../transitions';
 
 const Shop = () => {
   return(
-    <motion.section initial={{opacity: 0, y:"100%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"100%"}} transition={{transition1}} className='section'>
+    <motion.section initial={{opacity: 0, y:"100%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"100%"}} transition={{transition1}} className='section lg:overflow-hidden'>
       <div className='container mx-auto h-full relative'>
         <div className='flex flex-col lg:flex-row h-full items-center justify-start  gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'>
           {/* text */}

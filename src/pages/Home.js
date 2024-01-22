@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 
 const Home = () => {
-  return <motion.section initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity:0}} transition={{transition1}} className='section'>
+  return <motion.section initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity:0}} transition={{transition1}} className='section lg:overflow-hidden'>
     <div className='container mx-auto'>
       {/* text & img wrapper */}
       <div className='flex flex-col justify-center'>
