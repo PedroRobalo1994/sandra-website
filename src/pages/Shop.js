@@ -21,7 +21,7 @@ const Shop = () => {
             <br/>
             <p className='p-1' >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </p>
-            <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0 bg-green'>View More</Link>
+            <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0 bg-green'>Buy Here</Link>
           </motion.div>
           {/* image grid */}
           <div className='grid grid-cols-2 lg:gap-2'>
