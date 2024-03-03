@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sandra-website/static/css/main.6bc26592.css",
-    "main.js": "/sandra-website/static/js/main.7cc4bf18.js",
+    "main.css": "/sandra-website/static/css/main.e7d7a6bc.css",
+    "main.js": "/sandra-website/static/js/main.3e8b54f0.js",
     "static/media/sandra_3.jpg": "/sandra-website/static/media/sandra_3.1dfdd41d83f580f740f3.jpg",
     "static/media/sandra_4.jpg": "/sandra-website/static/media/sandra_4.0b237c293b54113f866c.jpg",
     "static/media/sandra_6.jpg": "/sandra-website/static/media/sandra_6.abe972d4dcb69f4f6340.jpg",
@@ -9,11 +9,11 @@
     "static/media/sandra.jpg": "/sandra-website/static/media/sandra.9202f46714c0f2ff44ad.jpg",
     "static/media/logorb.png": "/sandra-website/static/media/logorb.8e16a0c66063458d7f79.png",
     "index.html": "/sandra-website/index.html",
-    "main.6bc26592.css.map": "/sandra-website/static/css/main.6bc26592.css.map",
-    "main.7cc4bf18.js.map": "/sandra-website/static/js/main.7cc4bf18.js.map"
+    "main.e7d7a6bc.css.map": "/sandra-website/static/css/main.e7d7a6bc.css.map",
+    "main.3e8b54f0.js.map": "/sandra-website/static/js/main.3e8b54f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bc26592.css",
-    "static/js/main.7cc4bf18.js"
+    "static/css/main.e7d7a6bc.css",
+    "static/js/main.3e8b54f0.js"
   ]
 }
