@@ -71,7 +71,7 @@ const Contact = () => {
               name='message'
               placeholder='Your message'>
             </input>
-            <button className='btn mb-[30px] mx-auto lg:mx-30 self-start bg-green'>Send it</button>
+            <button className='btn mb-[30px] mx-auto lg:mx-30 self-start bg-green mt-8'>Send it</button>
             <ToastContainer />
           </form>
         </div>
