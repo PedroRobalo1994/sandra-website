@@ -23,7 +23,7 @@ const Portfolio = () => {
               <p className='p-1 text-pink'>Let's collaborate I'd love to infuse your project with creativity and wanderlust.</p>
             </strong>            
             </p>
-            <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0 bg-green'>View More</Link>
+            <Link to={'/portfolio/collaborations'} className='btn mb-[30px] mx-auto lg:mx-0 bg-green'>View More</Link>
           </motion.div>
           {/* image grid */}
           <div className='grid grid-cols-2 lg:gap-2'>

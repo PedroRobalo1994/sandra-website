@@ -12,7 +12,7 @@ const Home = () => {
         {/* text */}
         <motion.div initial={{opacity: 0, y:"-50%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"-50%"}} transition={{transition1}} className='w-full pt-28  pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start'>
           <h1 className='h1 text-pink'>Sandra<br/>Camilo</h1>
-        <p className='text-[26px] lg:text-[26px] font-primary mb-4 lg:mb-12'>Travel, Food & Lifestyle</p>
+        <p className='h2 text-[26px] lg:text-[26px]'>Travel, Food & Lifestyle</p>
         <Link to={'/contact'} className='btn bg-green mx-10'>Contact Me</Link>
         </motion.div>
         {/* img */}

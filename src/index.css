@@ -9,6 +9,9 @@
   .h1 {
     @apply text-[54px] lg:text-[108px] font-primary font-bold capitalize leading-[120%] tracking-[-0.05em] mb-2;
   }
+  .h2 {
+    @apply text-[52px] lg:text-[52px] font-primary mb-4 lg:mb-12;
+  }
   .section {
     @apply h-screen w-screen;
   }
