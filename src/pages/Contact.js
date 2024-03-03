@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
+import Sandra3 from '../img/portfolio/sandra_3.jpg';
 import 'react-toastify/dist/ReactToastify.css';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
@@ -44,7 +45,7 @@ const Contact = () => {
       });
   };
   
-  return <motion.section initial={{opacity: 0, y:"100%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"100%"}} transition={{transition1}} className='section bg-white overflow-hidden'>
+  return <motion.section initial={{opacity: 0, y:"100%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"100%"}} transition={{transition1}} className='section bg-white'>
     <div className='container mx-auto h-full'>
       <div className='flex flex-col lg:flex-row h-full items-center justify-start pt-36 gap-x-8 text-center lg:text-left '>
         {/* bg */}
@@ -77,6 +78,7 @@ const Contact = () => {
         </div>
         {/*image*/}
         <motion.div initial={{opacity: 0, y:"-80%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"-80%"}} transition={{transition: transition1, duration: 1.5}} className='lg:flex-1'>
+          <img className='rounded-t-full' src={Sandra3} alt=''></img>
         </motion.div>
       </div>
     </div>

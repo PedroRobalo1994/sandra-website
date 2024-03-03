@@ -11,7 +11,7 @@ const About = () => {
       <div className='flex flex-col lg:flex-row h-full items-center justify-center text-center lg:text-left lg:pt-16'>
         {/* image */}
         <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
-          <img className='lg:mt-60' src={SandraImg} alt=''/>
+          <img className='lg:mt-60 rounded-3xl' src={SandraImg} alt=''/>
         </div>
         {/* text */}
         <motion.div initial={{opacity: 0, y:"-80%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"-80%"}} transition={{transition1}} className='flex-1 pt-24 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center'>

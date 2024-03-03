@@ -18,7 +18,7 @@ const Home = () => {
         {/* img */}
         <div className='flex justify-end'>
           <motion.div initial={{scale: 0}} animate={{scale: 1}} exit={{scale:0}} transition={{transition1}} className='relative lg:right-40 overflow-hidden -mt-4'>
-            <motion.img whileHover={{scale: 1.1}} transition={transition1} src={SandraImg} alt='' className='w-full lg:w-auto'/>
+            <motion.img whileHover={{scale: 1.1}} transition={transition1} src={SandraImg} alt='' className='w-full lg:w-auto rounded-3xl'/>
           </motion.div>
         </div>      
       </div>

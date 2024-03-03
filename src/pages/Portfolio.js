@@ -29,16 +29,16 @@ const Portfolio = () => {
           <div className='grid grid-cols-2 lg:gap-2'>
             {/* image */}
             <div className='max-w-[300px] lg:max-w-[400px] h-[250px] lg:h-[300px] bg-accent overflow-hidden'>
-              <img className='object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra5} alt=''/>
+              <img className='rounded-xl object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra5} alt=''/>
             </div>
             <div className='max-w-[300px] lg:max-w-[470px] h-[250px] lg:h-[300px] bg-accent overflow-hidden'>
-              <img className='object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra6} alt=''/>
+              <img className='rounded-xl object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra6} alt=''/>
             </div>
             <div className='max-w-[300px] lg:max-w-[400px] h-[250px] lg:h-[300px] bg-accent overflow-hidden'>
-              <img className='object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra3} alt=''/>
+              <img className='rounded-xl object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra3} alt=''/>
             </div>
             <div className='max-w-[300px] lg:max-w-[400px] h-[250px] lg:h-[300px] bg-accent overflow-hidden'>
-              <img className='object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra4} alt=''/>
+              <img className='rounded-xl object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra4} alt=''/>
             </div>
           </div>
         </div>
