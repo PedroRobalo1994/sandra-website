@@ -2,7 +2,6 @@ import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import WomanImg from '../img/contact/woman.png'
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 
@@ -52,8 +51,7 @@ const Contact = () => {
         <motion.div initial={{opacity: 0, y:"100%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"100%"}} transition={{transition1}} className='hidden lg:flex bg-[#eef7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'></motion.div>
         {/* text $ form */}
         <div className='lg:flex-1 lg:pt-32 px-4 '>
-          <h1 className='h1 text-pink'>Contact me</h1>
-          <p className='mb-12'>I would love to get suggestions from you.</p>
+          <h1 className='h1 text-pink mb-8'>Contact me</h1>
           {/* form */}
           <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-y-4'>
             <div className='flex gap-x-10 '>
@@ -73,13 +71,12 @@ const Contact = () => {
               name='message'
               placeholder='Your message'>
             </input>
-            <button className='btn mb-[30px] mx-auto lg:mx-0 self-start bg-green'>Send it</button>
+            <button className='btn mb-[30px] mx-auto lg:mx-30 self-start bg-green'>Send it</button>
             <ToastContainer />
           </form>
         </div>
         {/*image*/}
         <motion.div initial={{opacity: 0, y:"-80%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"-80%"}} transition={{transition: transition1, duration: 1.5}} className='lg:flex-1'>
-          <img src={WomanImg} alt=''/>
         </motion.div>
       </div>
     </div>
