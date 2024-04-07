@@ -11,10 +11,10 @@ const Shop = () => {
   return(
     <motion.section initial={{opacity: 0, y:"100%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"100%"}} transition={{transition1}} className='section lg:overflow-hidden'>
       <div className='container mx-auto h-full relative'>
-        <div className='flex flex-col lg:flex-row h-full items-center justify-start  gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'>
+        <div className='flex flex-col lg:flex-row h-full items-center justify-start  gap-x-24 text-center lg:text-left'>
           {/* text */}
           <motion.div initial={{opacity: 0, y:"-80%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"-80%"}} transition={{transition1}} className='flex flex-col lg:items-center text-center'>
-            <h1 className='h1 text-pink mb-8'>Shop</h1>
+            <h1 className='h1 text-pink'>Shop</h1>
             <p className='mb-12 max-w-sm'>
             <p>Embark on a global adventure and explore the very destinations that have left me spellbound. 🌎✨</p>
             <br/>
