@@ -25,10 +25,10 @@ const Shop = () => {
               <p className='p-1 text-pink'>Ready to create memories that last a lifetime? </p>
             </strong>            
             </p>
-            <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0 bg-green'>Visit my shop</Link>
+            <Link to={'/contact'} className='btn rounded-xl mb-[30px] mx-auto lg:mx-0 bg-green'>Visit my shop</Link>
           </motion.div>
           {/* image grid */}
-          <div className='grid grid-cols-2 lg:gap-2'>
+          <div className='grid grid-cols-2 gap-2'>
             {/* image */}
             <div className='max-w-[300px] lg:max-w-[400px] h-[250px] lg:h-[300px] bg-accent overflow-hidden'>
               <img className='rounded-xl object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra5} alt=''/>

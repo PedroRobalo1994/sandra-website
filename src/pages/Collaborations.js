@@ -23,7 +23,7 @@ const Collaborations = () => {
         {/* First Collaborations Section */}
         <div className="collaborations-section">
           <div className="flex flex-col lg:flex-row h-full items-center justify-center text-center lg:text-left lg:pt-16">
-            <div className="flex-1 max-h-96 lg:max-h-full order-2 lg:order-none">
+            <div className="flex-1 max-h-full order-2 lg:order-none">
               <Carousel autoSlide={true}>
                 {images.map((image) => (
                   <img className="rounded-3xl" alt="Carousel" src={image} />
@@ -61,7 +61,7 @@ const Collaborations = () => {
         </div>
 
         {/* Second Collaborations Section */}
-        <div className="collaborations-section mt-2">
+        <div className="collaborations-section">
           <div className="flex flex-col lg:flex-row-reverse h-full items-center justify-center text-center lg:text-left lg:pt-16">
             <motion.div
               initial={{ opacity: 0, y: "-80%" }}
@@ -86,11 +86,11 @@ const Collaborations = () => {
                   </strong>
                 </p>
               </p>
-              <Link to={"/portfolio"} className="btn rounded-xl bg-green">
-                Visit Link
-              </Link>
+              <a href="https://www.instagram.com/stories/highlights/18027758197825062/" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green">
+                View Collaboration
+              </a>
             </motion.div>
-            <div className="flex-1 max-h-96 lg:max-h-full order-2 lg:order-none">
+            <div className="flex-1 lg:max-h-full order-2 lg:order-none">
               <Carousel autoSlide={true}>
                 {images.map((image) => (
                   <img className="rounded-3xl" alt="Carousel" src={image} />

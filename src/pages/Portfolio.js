@@ -50,7 +50,7 @@ const Portfolio = () => {
             </Link>
           </motion.div>
           {/* image grid */}
-          <div className="grid grid-cols-2 lg:gap-2">
+          <div className="grid grid-cols-2 gap-2">
             {/* image */}
             <div className="max-w-[300px] lg:max-w-[400px] h-[250px] lg:h-[300px] bg-accent overflow-hidden">
               <img
