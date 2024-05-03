@@ -18,7 +18,7 @@ const Collaborations = () => {
       className="section lg:overflow-auto"
     >
       <div className="container mx-auto h-full relative">
-        <h1 className="flex h1 text-pink justify-center">Collaborations</h1>
+      <h1 className="flex h1 text-pink justify-center mt-4 md:mt-0">Collaborations</h1>
 
         {/* First Collaborations Section */}
         <div className="collaborations-section">
