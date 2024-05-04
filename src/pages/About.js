@@ -26,7 +26,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "-80%" }}
             transition={{ transition1 }}
-            className="flex-1 pt-24 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
+            className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
           >
             <h1 className="h1 text-pink">About me</h1>
             <p className="mb-12 max-w-sm">

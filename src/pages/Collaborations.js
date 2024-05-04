@@ -18,7 +18,7 @@ const Collaborations = () => {
       className="section lg:overflow-auto"
     >
       <div className="container mx-auto h-full relative">
-      <h1 className="flex h1 text-pink justify-center mt-4 md:mt-0">Collaborations</h1>
+      <h1 className="flex h1 text-pink justify-center mt-6 md:mt-0">Collaborations</h1>
 
         {/* First Collaborations Section */}
         <div className="collaborations-section">
@@ -26,7 +26,7 @@ const Collaborations = () => {
             <div className="flex-1 max-h-full order-2 lg:order-none">
               <Carousel autoSlide={true}>
                 {images.map((image) => (
-                  <img className="rounded-3xl" alt="Carousel" src={image} />
+                  <img className="rounded-3xl mb-1 p-2" alt="Carousel" src={image} />
                 ))}
               </Carousel>
             </div>
@@ -35,9 +35,9 @@ const Collaborations = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: "-80%" }}
               transition={{ transition1 }}
-              className="flex-1 pt-24 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
+              className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
             >
-              <h2 className="h2 p-4">Salvaterra Country House</h2>
+              <h2 className="h2">Salvaterra Country House</h2>
               <p className="mb-12 max-w-sm">
                 My name is Sandra and I'm a true enthusiast for travel and
                 nature. Another great passion I have is cooking and that's why I
@@ -53,24 +53,25 @@ const Collaborations = () => {
                   </strong>
                 </p>
               </p>
-              <Link to={"/portfolio"} className="btn rounded-xl bg-green">
+              <Link to={"/portfolio"} className="btn rounded-xl bg-green mb-6">
                 Visit Link
               </Link>
             </motion.div>
           </div>
+          <div> </div>
         </div>
 
         {/* Second Collaborations Section */}
-        <div className="collaborations-section">
+        <div className="collaborations-section mt-12">
           <div className="flex flex-col lg:flex-row-reverse h-full items-center justify-center text-center lg:text-left lg:pt-16">
             <motion.div
               initial={{ opacity: 0, y: "-80%" }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: "-80%" }}
               transition={{ transition1 }}
-              className="flex-1 pt-24 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
+              className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
             >
-              <h2 className="h2 p-4">Chão do Rio</h2>
+              <h2 className="h2">Chão do Rio</h2>
               <p className="mb-12 max-w-sm">
                 My name is Sandra and I'm a true enthusiast for travel and
                 nature. Another great passion I have is cooking and that's why I
@@ -86,14 +87,14 @@ const Collaborations = () => {
                   </strong>
                 </p>
               </p>
-              <a href="https://www.instagram.com/stories/highlights/18027758197825062/" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green">
+              <a href="https://www.instagram.com/stories/highlights/18027758197825062/" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
                 View Collaboration
               </a>
             </motion.div>
             <div className="flex-1 lg:max-h-full order-2 lg:order-none">
               <Carousel autoSlide={true}>
                 {images.map((image) => (
-                  <img className="rounded-3xl" alt="Carousel" src={image} />
+                  <img className="rounded-3xl mb-1 p-2" alt="Carousel" src={image} />
                 ))}
               </Carousel>
             </div>
