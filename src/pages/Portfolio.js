@@ -6,8 +6,10 @@ import Sandra4 from "../img/portfolio/sandra_4.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
+  const { t } = useTranslation();
   return (
     <motion.section
       initial={{ opacity: 0, y: "100%" }}
@@ -26,19 +28,14 @@ const Portfolio = () => {
             transition={{ transition1 }}
             className="flex flex-col lg:items-center text-center"
           >
-            <h1 className="h1 text-pink">Portfolio</h1>
+            <h1 className="h1 text-pink">{t('portfolio')}</h1>
             <p className="mb-12 max-w-sm">
-              As a visual storyteller, I weave captivating narratives through
-              the lens of photography, travelogues, and recipes. Whether I'm
-              capturing the majestic mountains of the countryside or the
-              sun-kissed beaches around the world, my work celebrates the
-              vibrant tapestry of life.
+              {t('portfolio_description_1')}
               <br />
               <br />
               <strong>
                 <p className="p-1 text-pink">
-                  Let's collaborate I'd love to infuse your project with
-                  creativity and wanderlust.
+                  {t('portfolio_description_2')}
                 </p>
               </strong>
             </p>
@@ -46,7 +43,7 @@ const Portfolio = () => {
               to={"/portfolio/collaborations"}
               className="btn rounded-xl mb-[30px] mx-auto lg:mx-0 bg-green"
             >
-              View More
+              {t('view_more_button')}
             </Link>
           </motion.div>
           {/* image grid */}

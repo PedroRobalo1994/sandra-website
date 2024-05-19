@@ -5,10 +5,12 @@ import Sandra3 from "../img/portfolio/sandra_3.jpg";
 import "react-toastify/dist/ReactToastify.css";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const emailSentToast = () =>
-    toast.success("😁 Email Submitted!", {
+    toast.success(t('email_sent_success_message'), {
       position: "bottom-center",
       autoClose: 5000,
       hideProgressBar: false,
@@ -18,9 +20,8 @@ const Contact = () => {
       progress: undefined,
       theme: "light",
     });
-
   const emailNotSentToast = () =>
-    toast.error("😮 Email Was Not Submitted!", {
+    toast.error(t('email_error_message'), {
       position: "bottom-center",
       autoClose: 5000,
       hideProgressBar: false,
@@ -30,12 +31,9 @@ const Contact = () => {
       progress: undefined,
       theme: "light",
     });
-
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_n34xk3l",
@@ -76,7 +74,7 @@ const Contact = () => {
           ></motion.div>
           {/* text $ form */}
           <div className="lg:flex-1 lg:pt-32 px-4 ">
-            <h1 className="h1 text-pink">Contact me</h1>
+            <h1 className="h1 text-pink">{t('contact_me_title')}</h1>
             {/* form */}
             <form
               ref={form}
@@ -88,23 +86,23 @@ const Contact = () => {
                   className="outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]"
                   type="text"
                   name="user_name"
-                  placeholder="Your name"
+                  placeholder={t('name_placeholder')}
                 ></input>
                 <input
                   className="outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]"
                   type="text"
                   name="user_email"
-                  placeholder="Your email address"
+                  placeholder={t('email_placeholder')}
                 ></input>
               </div>
               <input
                 className="outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]"
                 type="text"
                 name="message"
-                placeholder="Your message"
+                placeholder={t('message_placeholder')}
               ></input>
               <button className="btn rounded-xl mb-[30px] mx-auto lg:mx-30 self-start bg-green mt-8">
-                Send it
+                {t('send_button')}
               </button>
               <ToastContainer />
             </form>

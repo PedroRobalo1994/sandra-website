@@ -3,8 +3,10 @@ import SandraImg from "../img/home/sandra.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -25,15 +27,15 @@ const Home = () => {
             className="w-full pb-14 lg:mb-12 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start"
           >
             <h1 className="h1 text-pink">
-              Sandra
+              {t('sandra')}
               <br />
-              Camilo
+              {t('camilo')}
             </h1>
             <p className="h2 text-[26px] lg:text-[26px]">
-              Travel, Food & Lifestyle
+            {t('home_description')}
             </p>
             <Link to={"/contact"} className="btn rounded-xl bg-green mx-10">
-              Contact Me
+            {t('contact_me_button')}
             </Link>
           </motion.div>
           {/* img */}

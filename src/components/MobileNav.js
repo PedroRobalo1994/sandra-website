@@ -3,6 +3,8 @@ import { IoMdClose } from 'react-icons/io'
 import { CgMenuRight } from 'react-icons/cg'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import ChangeLanguage from './ChangeLanguage';
 
 const menuVariants = {
   hidden: {
@@ -17,6 +19,7 @@ const menuVariants = {
 }
 
 const MobileNav = () => {
+  const { t } = useTranslation();
   const [openMenu, setOpenMenu] = useState(false)
   return <nav className='text-primary lg:hidden flex justify-end -mt-10'>
     {/* nav open button */}
@@ -29,11 +32,14 @@ const MobileNav = () => {
       <div onClick={() => setOpenMenu(false)} className='text-3xl absolute z-30 left-4 top-14 text-green cursor-pointer mt-5'><IoMdClose/></div>
       {/* menu list */}
       <ul className='h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary font-bold text-3xl'>
-        <li><Link className='text-green  hover:text-pink' onClick={() => setOpenMenu(false)} to='/'>Home</Link></li>
-        <li><Link className='text-green  hover:text-pink' onClick={() => setOpenMenu(false)} to='/about'>About</Link></li>
-        <li><Link className='text-green  hover:text-pink' onClick={() => setOpenMenu(false)} to='/portfolio'>Portfolio</Link></li>
-        <li><Link className='text-green  hover:text-pink' onClick={() => setOpenMenu(false)} to='/Shop'>Shop</Link></li>
-        <li><Link className='text-green hover:text-pink' onClick={() => setOpenMenu(false)} to='/contact'>Contact</Link></li>
+        <li><Link className='text-green  hover:text-pink' onClick={() => setOpenMenu(false)} to='/'>{t('home')}</Link></li>
+        <li><Link className='text-green  hover:text-pink' onClick={() => setOpenMenu(false)} to='/about'>{t('about')}</Link></li>
+        <li><Link className='text-green  hover:text-pink' onClick={() => setOpenMenu(false)} to='/portfolio'>{t('portfolio')}</Link></li>
+        <li><Link className='text-green  hover:text-pink' onClick={() => setOpenMenu(false)} to='/Shop'>{t('shop')}</Link></li>
+        <li><Link className='text-green hover:text-pink' onClick={() => setOpenMenu(false)} to='/contact'>{t('contact')}</Link></li>
+        <li>
+          <ChangeLanguage visible={true} />
+        </li>
       </ul>
     </motion.div>
   </nav>;

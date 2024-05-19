@@ -3,8 +3,10 @@ import SandraImg from "../img/about/sandra.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <motion.section
       initial={{ opacity: 0, y: "100%" }}
@@ -28,22 +30,20 @@ const About = () => {
             transition={{ transition1 }}
             className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
           >
-            <h1 className="h1 text-pink">About me</h1>
+            <h1 className="h1 text-pink">{t('about_me_title')}</h1>
             <p className="mb-12 max-w-sm">
-              My name is Sandra and I'm a true enthusiast for travel and nature.
-              Another great passion I have is cooking and that's why I also
-              share some recipe videos on my page.
+            {t('about_me_description_1')}
               <br />
               <br />
               <p className="p-1">
-                My goal is to inspire people to enjoy the best in life:{" "}
+              {t('about_me_description_2')}{" "}
                 <strong>
-                  <span className="p-1 text-pink ">Travel and good food!</span>
+                  <span className="p-1 text-pink ">{t('about_me_description_3')}</span>
                 </strong>
               </p>
             </p>
             <Link to={"/portfolio"} className="btn rounded-xl bg-green">
-              View my work
+              {t('view_my_work_button')}
             </Link>
           </motion.div>
         </div>
