@@ -46,7 +46,7 @@ const Collaborations = () => {
               className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
             >
               <h2 className="h2">{t('collaboration_1_title')}</h2>
-              <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDMyNzgzNzUyNTIyMjQw?story_media_id=3188915269371212555&igsh=MWIxcTBtdWhubzkweQ==" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
+              <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDMyNzgzNzUyNTIyMjQw?igsh=MWIxcTBtdWhubzkweQ==" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
                 {t('view_collaboration_button')}
               </a>
             </motion.div>
@@ -65,7 +65,7 @@ const Collaborations = () => {
               className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
             >
               <h2 className="h2">{t('collaboration_2_title')}</h2>
-              <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg0NjcwMzA1MjU0MzYz?story_media_id=3101124259992513267&igsh=MWd3MndncGpldGk0Nw==" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
+              <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg0NjcwMzA1MjU0MzYz?igsh=MWd3MndncGpldGk0Nw==" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
                 {t('view_collaboration_button')}
               </a>
             </motion.div>
