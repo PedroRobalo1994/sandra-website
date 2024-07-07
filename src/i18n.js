@@ -36,7 +36,7 @@ const resources = {
       "shop_description_4": "Ready to create memories that last a lifetime?",
       "visit_my_shop_button": "Visit my shop",
       "collaborations": "Collaborations",
-      "collaboration_1_title": "Salvaterra Country House",
+      "collaboration_1_title": "Santa Maria Bejuco Home",
       "collaboration_1_description_1": `My name is Sandra and I'm a true enthusiast for travel and
       nature. Another great passion I have is cooking and that's why I
       also share some recipe videos on my page.`,
@@ -76,7 +76,7 @@ const resources = {
       "shop_description_4": "Pronto para criar memórias que duram uma vida inteira?",
       "visit_my_shop_button": "Visita a minha loja",
       "collaborations": "Colaborações",
-      "collaboration_1_title": "Salvaterra Country House",
+      "collaboration_1_title": "Santa Maria Bejuco Home",
       "collaboration_1_description_1": "O meu nome é Sandra e sou uma verdadeira entusiasta por viagens e natureza. Outra grande paixão que tenho é a culinária e é por isso que também partilho alguns vídeos de receitas na minha página.",
       "collaboration_2_title": "Chão do Rio",
       "view_collaboration_button": "Ver Colaboração",
