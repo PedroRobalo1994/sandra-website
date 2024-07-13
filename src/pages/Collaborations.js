@@ -65,7 +65,7 @@ const Collaborations = () => {
               className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
             >
               <h2 className="h2">{t('collaboration_2_title')}</h2>
-              <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg0NjcwMzA1MjU0MzYz?igsh=MWd3MndncGpldGk0Nw==" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
+              <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDU2ODAxNTAzNTY1MDY5?igsh=ZjR0a29rNThyeTln" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
                 {t('view_collaboration_button')}
               </a>
             </motion.div>
