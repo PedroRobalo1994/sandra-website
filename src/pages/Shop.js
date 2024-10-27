@@ -1,9 +1,8 @@
 import React from 'react';
-import Sandra5 from '../img/portfolio/sandra_5.jpg';
-import Sandra6 from '../img/portfolio/sandra_6.jpg';
-import Sandra3 from '../img/portfolio/sandra_3.jpg';
-import Sandra4 from '../img/portfolio/sandra_4.jpg';
-import { Link } from 'react-router-dom';
+import Sandra1 from '../img/shop/sandra_1.jpg';
+import Sandra2 from '../img/shop/sandra_2.jpg';
+import Sandra3 from '../img/shop/sandra_3.jpg';
+import Sandra4 from '../img/shop/sandra_4.jpg';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 import { useTranslation } from 'react-i18next';
@@ -27,16 +26,16 @@ const Shop = () => {
               <p className='p-1 text-pink'>{t('shop_description_4')}</p>
             </strong>            
             </p>
-            <Link to={'/contact'} className='btn rounded-xl mb-[30px] mx-auto lg:mx-0 bg-green'>{t('visit_my_shop_button')}</Link>
+            <a href="https://go.hotmart.com/B96262929H" target="_blank" rel="noopener noreferrer" className='btn rounded-xl mb-[30px] mx-auto lg:mx-0 bg-green'>{t('visit_my_shop_button')}</a>
           </motion.div>
           {/* image grid */}
           <div className='grid grid-cols-2 gap-2'>
             {/* image */}
             <div className='max-w-[300px] lg:max-w-[400px] h-[250px] lg:h-[300px] bg-accent overflow-hidden'>
-              <img className='rounded-xl object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra5} alt=''/>
+              <img className='rounded-xl object-cover w-full h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra1} alt=''/>            
             </div>
             <div className='max-w-[300px] lg:max-w-[470px] h-[250px] lg:h-[300px] bg-accent overflow-hidden'>
-              <img className='rounded-xl object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra6} alt=''/>
+              <img className='rounded-xl object-cover w-full h-full hover:scale-110 transition-all dur500' src={Sandra2} alt=''/>
             </div>
             <div className='max-w-[300px] lg:max-w-[400px] h-[250px] lg:h-[300px] bg-accent overflow-hidden'>
               <img className='rounded-xl object-cover h-full lg:h-[300px] hover:scale-110 transition-all dur500' src={Sandra3} alt=''/>
