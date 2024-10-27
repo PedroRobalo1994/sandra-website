@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/sandra-website/static/css/main.d67321bd.css",
-    "main.js": "/sandra-website/static/js/main.185c72ec.js",
+    "main.js": "/sandra-website/static/js/main.bf1bb0cb.js",
     "static/media/ChaoDoRio3.JPEG": "/sandra-website/static/media/ChaoDoRio3.21544e9b68861387ef0d.JPEG",
     "static/media/ChaoDoRio1.JPEG": "/sandra-website/static/media/ChaoDoRio1.1473800a69bb27e937ef.JPEG",
     "static/media/SantaMariaBejuco2.JPEG": "/sandra-website/static/media/SantaMariaBejuco2.782fdd22887c5bbde8eb.JPEG",
     "static/media/ChaoDoRio4.JPEG": "/sandra-website/static/media/ChaoDoRio4.7133fdd7ea12dad051cc.JPEG",
-    "static/media/sandra_3.jpg": "/sandra-website/static/media/sandra_3.1dfdd41d83f580f740f3.jpg",
+    "static/media/sandra_3.jpg": "/sandra-website/static/media/sandra_3.6c45e291057965331417.jpg",
     "static/media/SantaMariaBejuco3.JPEG": "/sandra-website/static/media/SantaMariaBejuco3.c4400acd815038e407a6.JPEG",
-    "static/media/sandra_4.jpg": "/sandra-website/static/media/sandra_4.0b237c293b54113f866c.jpg",
+    "static/media/sandra_4.jpg": "/sandra-website/static/media/sandra_4.32d551a8a4ffda861d0c.jpg",
     "static/media/SantaMariaBejuco4.JPEG": "/sandra-website/static/media/SantaMariaBejuco4.2e796dfa268ac9ec2740.JPEG",
     "static/media/sandra_6.jpg": "/sandra-website/static/media/sandra_6.abe972d4dcb69f4f6340.jpg",
     "static/media/ChaoDoRio2.JPEG": "/sandra-website/static/media/ChaoDoRio2.0093151e230fc7ffe94b.JPEG",
     "static/media/sandra_5.jpg": "/sandra-website/static/media/sandra_5.abf3aa1acd840212caa2.jpg",
     "static/media/sandra.jpg": "/sandra-website/static/media/sandra.9202f46714c0f2ff44ad.jpg",
     "static/media/SantaMariaBejuco1.JPEG": "/sandra-website/static/media/SantaMariaBejuco1.f14d61d1a1a58f61188e.JPEG",
+    "static/media/sandra_2.jpg": "/sandra-website/static/media/sandra_2.6bdbb7b44f564d245113.jpg",
+    "static/media/sandra_1.jpg": "/sandra-website/static/media/sandra_1.e90bfae539edb715387e.jpg",
     "static/media/logorb.png": "/sandra-website/static/media/logorb.8e16a0c66063458d7f79.png",
     "index.html": "/sandra-website/index.html",
     "main.d67321bd.css.map": "/sandra-website/static/css/main.d67321bd.css.map",
-    "main.185c72ec.js.map": "/sandra-website/static/js/main.185c72ec.js.map"
+    "main.bf1bb0cb.js.map": "/sandra-website/static/js/main.bf1bb0cb.js.map"
   },
   "entrypoints": [
     "static/css/main.d67321bd.css",
-    "static/js/main.185c72ec.js"
+    "static/js/main.bf1bb0cb.js"
   ]
 }
