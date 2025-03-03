@@ -26,12 +26,17 @@ const Home = () => {
             transition={{ transition1 }}
             className="w-full pb-14 lg:mb-12 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start"
           >
-            <h1 className="h1 text-pink">
-              {t('sandra')}
-              <br />
-              {t('camilo')}
+            {/* Mobile title: horizontal display */}
+            <h1 className="h1 text-pink block lg:hidden">
+              {t('sandra')} {t('camilo')}
             </h1>
-            <p className="h2 text-[26px] lg:text-[26px]">
+
+            {/* Desktop title: vertical display */}
+            <h1 className="h1 text-pink hidden lg:block">
+              {t('sandra')}<br />{t('camilo')}
+            </h1>
+
+            <p className="h2 text-[20px] lg:text-[26px]">
             {t('home_description')}
             </p>
             <Link to={"/contact"} className="btn rounded-xl bg-green mx-10">
