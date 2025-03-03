@@ -57,7 +57,7 @@ const resources = {
       "home": "Início",
       "sandra": "Sandra",
       "camilo": "Camilo",
-      "home_description": "Viagens, Comida & Estilo de Vida",
+      "home_description": "Viagens, Comida & Lifestyle",
       "contact_me_button": "Contacta-me",
       "about": "Sobre",
       "about_me_title": "Sobre mim",

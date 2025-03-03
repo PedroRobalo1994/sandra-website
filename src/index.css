@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'PhotographSignature';
+  src: url('../src/fonts/Photograph\ Signature.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer base {
   body {
     @apply overflow-visible text-primary font-secondary bg-white;
   }
   .h1 {
-    @apply text-[54px] lg:text-[108px] font-primary font-bold capitalize leading-[120%] tracking-[-0.05em] mb-2;
+    @apply text-[54px] lg:text-[140px] font-primary leading-[120%] tracking-[-0.05em] mb-2;
+    font-family: 'PhotographSignature', sans-serif;
   }
   .h2 {
     @apply text-[52px] lg:text-[52px] font-primary mb-4 lg:mb-12;
