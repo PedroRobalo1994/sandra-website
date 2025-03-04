@@ -16,11 +16,11 @@ const Header = () => {
       </Link>
       {/* nav - initialy hidden - show on desktop mode */}
       <nav className='hidden lg:flex  gap-x-12 font-semibold'>
-        <Link to={'/'} className='text-green hover:text-pink transition'>{t('home')}</Link>
-        <Link to={'/about'} className='text-green hover:text-pink transition'>{t('about')}</Link>
-        <Link to={'/portfolio'} className='text-green hover:text-pink transition'>{t('portfolio')}</Link>
-        <Link to={'/shop'} className='text-green hover:text-pink transition'>{t('shop')}</Link>
-        <Link to={'/contact'} className='text-green hover:text-pink transition'>{t('contact')}</Link>
+        <Link to={'/'} className='text-green hover:text-pink text-xl transition' data-test="nav-link-home">{t('home')}</Link>
+        <Link to={'/about'} className='text-green hover:text-pink text-xl transition' data-test="nav-link-about">{t('about')}</Link>
+        <Link to={'/portfolio'} className='text-green hover:text-pink text-xl transition' data-test="nav-link-portfolio">{t('portfolio')}</Link>
+        <Link to={'/shop'} className='text-green hover:text-pink text-xl transition' data-test="nav-link-shop">{t('shop')}</Link>
+        <Link to={'/contact'} className='text-green hover:text-pink text-xl transition' data-test="nav-link-contact">{t('contact')}</Link>
       </nav>
       <ChangeLanguage/>
       <Socials/>

@@ -14,11 +14,11 @@ const ChangeLanguage = ({ visible }) => {
     <div className={`${visibilityClass}`}>
       <ul className='flex gap-x-2'>
         <li>
-          <button onClick={() => changeLanguage('en')} className='text-green hover:text-pink transition'>EN</button>
+          <button onClick={() => changeLanguage('en')} className='text-green hover:text-pink transition text-xl'>EN</button>
         </li>
         <li className='text-green hover:text-pink transition'> | </li>
         <li>
-          <button onClick={() => changeLanguage('pt')} className='text-green hover:text-pink transition'>PT</button>
+          <button onClick={() => changeLanguage('pt')} className='text-green hover:text-pink transition text-xl'>PT</button>
         </li>
       </ul>
     </div>
