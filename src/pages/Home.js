@@ -44,13 +44,13 @@ const Home = () => {
             </Link>
           </motion.div>
           {/* img */}
-          <div className="flex justify-end">
+          <div className="flex justify-end ml-10">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={{ transition1 }}
-              className="relative lg:right-40 overflow-hidden rounded-3xl"
+              className="relative lg:right-20 overflow-hidden rounded-3xl"
             >
               <motion.img
                 whileHover={{ scale: 1.1 }}
