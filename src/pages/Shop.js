@@ -3,6 +3,7 @@ import Sandra1 from '../img/shop/sandra_1.jpg';
 import Sandra2 from '../img/shop/sandra_2.jpg';
 import Sandra3 from '../img/shop/sandra_3.jpg';
 import Sandra4 from '../img/shop/sandra_4.jpg';
+import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 import { useTranslation } from 'react-i18next';
@@ -26,8 +27,9 @@ const Shop = () => {
               <p className='p-1 text-pink'>{t('shop_description_4')}</p>
             </strong>            
             </p>
-            <a href="https://go.hotmart.com/B96262929H" target="_blank" rel="noopener noreferrer" className='btn rounded-xl mb-[30px] mx-auto lg:mx-0 bg-green'>{t('visit_my_shop_button')}</a>
-          </motion.div>
+            <Link to="/shop/products" className="btn rounded-xl mb-[30px] mx-auto lg:mx-0 bg-green" data-test="visitProductsButton">
+              {t('visit_my_shop_button')}
+            </Link>          </motion.div>
           {/* image grid */}
           <div className='grid grid-cols-2 gap-2'>
             {/* image */}

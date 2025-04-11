@@ -8,6 +8,7 @@ import Contact from "../pages/Contact";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Collaborations from "../pages/Collaborations";
+import Products from "../pages/Products";
 
 const AnimRoutes = () => {
   const location = useLocation();
@@ -20,6 +21,7 @@ const AnimRoutes = () => {
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio/collaborations" element={<Collaborations />} />
+        <Route path="/shop/products" element={<Products />} />
       </Routes>
       ;
     </AnimatePresence>
