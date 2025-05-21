@@ -45,7 +45,7 @@ const Collaborations = () => {
               transition={{ transition1 }}
               className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
             >
-              <h2 className="h2">{t('collaboration_1_title')}</h2>
+              <h3 className="h3 text-primary mx-6">{t('collaboration_1_title')}</h3>
               <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDMyNzgzNzUyNTIyMjQw?igsh=MWIxcTBtdWhubzkweQ==" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
                 {t('view_collaboration_button')}
               </a>
@@ -64,7 +64,7 @@ const Collaborations = () => {
               transition={{ transition1 }}
               className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
             >
-              <h2 className="h2">{t('collaboration_2_title')}</h2>
+              <h3 className="h3 text-primary mx-6">{t('collaboration_2_title')}</h3>
               <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDU2ODAxNTAzNTY1MDY5?igsh=ZjR0a29rNThyeTln" target="_blank" rel="noopener noreferrer" className="btn rounded-xl bg-green mb-6">
                 {t('view_collaboration_button')}
               </a>

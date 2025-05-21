@@ -18,7 +18,11 @@
     font-family: 'PhotographSignature', sans-serif;
   }
   .h2 {
-    @apply text-[52px] lg:text-[52px] font-primary mb-4 lg:mb-12;
+    @apply text-[36px] lg:text-[72px] font-primary mb-4 lg:mb-12;
+  }
+  .h3 {
+    @apply text-[42px] lg:text-[84px] font-primary mb-4 lg:mb-12;
+    font-family: 'PhotographSignature', sans-serif;
   }
   .section {
     @apply h-screen w-screen;

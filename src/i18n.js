@@ -1,5 +1,3 @@
-// src/i18n.js
-
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
@@ -54,7 +52,10 @@ const resources = {
       "bundles_title": "Bundles",
       "bundles_description": "Explore our bundles combining travel guides and Lightroom presets.",
       "travel_guides_title": "Travel Guides",
-      "travel_guides_description": "Discover our detailed travel guides.",
+      "travel_guide_1_title": "Sintra Guide",
+      "travel_guide_2_title": "Lisbon Guide",
+      "travel_guide_1_description": "Discover Sintra like never before with my exclusive guide! Explore magical palaces, secret gardens, and stunning trails, complete with practical tips and personalized itineraries. Enjoy gastronomic suggestions and the best viewpoints for unforgettable photos. Perfect for those seeking a unique and authentic experience. Make your visit to Sintra truly memorable!",
+      "travel_guide_2_description": "Discover Lisbon like never before with my exclusive guide! Explore the city's charms, from historic neighborhoods to breathtaking viewpoints. With practical tips, gastronomic suggestions, and personalized itineraries, your visit to Lisbon will be unforgettable. Become a true connoisseur of the city and live a unique experience!",
       "lightroom_presets_title": "Lightroom Presets",
       "lightroom_presets_description": "Enhance your photos with our Lightroom presets.",
       "buy_now_button": "Buy Now"
@@ -100,7 +101,10 @@ const resources = {
       "bundles_title": "Bundles",
       "bundles_description": "Explora os nossos bundles que combinam guias de viagem e presets do Lightroom.",
       "travel_guides_title": "Guias de Viagem",
-      "travel_guides_description": "Descobre os meus guias de viagem detalhados.",
+      "travel_guide_1_title": "Guia de Sintra",
+      "travel_guide_2_title": "Guia de Lisboa",
+      "travel_guide_1_description": "Descobre Sintra como nunca antes com o meu guia exclusivo! Explora palácios mágicos, jardins secretos e trilhos deslumbrantes, tudo com dicas práticas e roteiros personalizados. Aproveita sugestões gastronómicas e os melhores miradouros para fotos inesquecíveis. Ideal para quem quer viver uma experiência única e autêntica. Torna a tua visita a Sintra verdadeiramente memorável!",
+      "travel_guide_2_description": "Descobre Lisboa como nunca antes com o meu guia exclusivo! Explora os encantos da cidade, desde os bairros históricos até aos miradouros deslumbrantes. Com dicas práticas, sugestões gastronómicas e itinerários personalizados, a tua visita a Lisboa será inesquecível. Torna-te um verdadeiro conhecedor da cidade e vive uma experiência única!",
       "lightroom_presets_title": "Presets do Lightroom",
       "lightroom_presets_description": "Melhora as tuas fotografias com os Presets do Lightroom.",
       "buy_now_button": "Comprar Agora"

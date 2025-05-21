@@ -29,12 +29,12 @@ const Portfolio = () => {
             className="flex flex-col lg:items-center text-center"
           >
             <h1 className="h1 text-pink">{t('portfolio')}</h1>
-            <p className="mb-12 max-w-sm">
+            <p className="mb-12 max-w-sm lg:text-lg mx-6">
               {t('portfolio_description_1')}
               <br />
               <br />
               <strong>
-                <p className="p-1 text-pink">
+                <p className="p-1 text-pink lg:text-lg mx-6">
                   {t('portfolio_description_2')}
                 </p>
               </strong>

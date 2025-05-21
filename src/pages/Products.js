@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Carousel from '../components/Carousel';
@@ -39,14 +38,12 @@ const Products = () => {
           {t('products')}
         </h1>
 
-        <hr className="my-8" />
+        <div className="w-24 h-1 bg-gradient-to-r from-pink to-transparent rounded-full mx-auto my-8" />
 
         {/* Bundles Section */}
-        <div data-test="bundlesSection" testID="bundlesSection">
+        <div hidden data-test="bundlesSection" testID="bundlesSection">
           <h2
-            data-test="bundlesSectionTitle"
-            testID="bundlesSectionTitle"
-            className="h2 text-pink text-center mb-4"
+            className="h2 text-green text-center mb-4"
           >
             {t('bundles_title')}
           </h2>
@@ -61,7 +58,7 @@ const Products = () => {
               <h3 data-test="bundleProductTitle1" testID="bundleProductTitle1" className="h3 text-center mb-2">
                 {t('bundles_subtitle_1')}
               </h3>
-              <p className="text-center mb-6">{t('bundles_description')}</p>
+              <p className="text-center mb-6 lg:text-lg mx-6">{t('bundles_description')}</p>
               <button
                 data-test="bundleCheckoutButton1"
                 testID="bundleCheckoutButton1"
@@ -86,8 +83,6 @@ const Products = () => {
             </div>
           </div>
 
-          <hr className="my-6" />
-
           {/* Second Bundle Product */}
           <div
             data-test="bundleProduct2"
@@ -98,7 +93,7 @@ const Products = () => {
               <h3 data-test="bundleProductTitle2" testID="bundleProductTitle2" className="h3 text-center mb-2">
                 {t('bundles_subtitle_2')}
               </h3>
-              <p className="text-center mb-6">{t('bundles_description')}</p>
+              <p className="text-center mb-6 lg:text-lg mx-6">{t('bundles_description')}</p>
               <button
                 data-test="bundleCheckoutButton2"
                 testID="bundleCheckoutButton2"
@@ -124,14 +119,12 @@ const Products = () => {
           </div>
         </div>
 
-        <hr className="my-8" />
-
         {/* Travel Guides Section */}
         <div data-test="guidesSection" testID="guidesSection">
           <h2
             data-test="guidesSectionTitle"
             testID="guidesSectionTitle"
-            className="h2 text-pink text-center mb-4"
+            className="h2 text-green text-center mb-4"
           >
             {t('travel_guides_title')}
           </h2>
@@ -140,13 +133,13 @@ const Products = () => {
           <div
             data-test="guideProduct1"
             testID="guideProduct1"
-            className="mt-12 md:flex md:items-center md:justify-between"
+            className="lg:mt-12 md:flex md:items-center md:justify-between"
           >
             <div className="md:w-1/2 md:pr-6">
-              <h3 data-test="guideProductTitle1" testID="guideProductTitle1" className="h3 text-center mb-2">
-                {t('travel_guides_subtitle_1')}
+              <h3 data-test="guideProductTitle1" testID="guideProductTitle1" className="h3 text-primary text-center mb-2">
+                {t('travel_guide_1_title')}
               </h3>
-              <p className="text-center mb-6">{t('travel_guides_description')}</p>
+              <p className="text-center mb-6 lg:text-lg mx-6">{t('travel_guide_1_description')}</p>
               <button
                 data-test="guideCheckoutButton1"
                 testID="guideCheckoutButton1"
@@ -171,8 +164,6 @@ const Products = () => {
             </div>
           </div>
 
-          <hr className="my-6" />
-
           {/* Second Guide Product */}
           <div
             data-test="guideProduct2"
@@ -180,10 +171,10 @@ const Products = () => {
             className="mt-12 md:flex md:items-center md:justify-between"
           >
             <div className="md:w-1/2 md:pr-6">
-              <h3 data-test="guideProductTitle2" testID="guideProductTitle2" className="h3 text-center mb-2">
-                {t('travel_guides_subtitle_2')}
+              <h3 data-test="guideProductTitle2" testID="guideProductTitle2" className="h3 text-primary text-center mb-2">
+                {t('travel_guide_2_title')}
               </h3>
-              <p className="text-center mb-6">{t('travel_guides_description')}</p>
+              <p className="text-center mb-6 lg:text-lg mx-6">{t('travel_guide_2_description')}</p>
               <button
                 data-test="guideCheckoutButton2"
                 testID="guideCheckoutButton2"
@@ -209,14 +200,13 @@ const Products = () => {
           </div>
         </div>
 
-        <hr className="my-8" />
 
         {/* Lightroom Presets Section */}
-        <div data-test="presetsSection" testID="presetsSection">
+        <div hidden data-test="presetsSection" testID="presetsSection">
           <h2
             data-test="presetsSectionTitle"
             testID="presetsSectionTitle"
-            className="h2 text-pink text-center mb-4"
+            className="h2 text-green text-center mb-4"
           >
             {t('lightroom_presets_title')}
           </h2>
@@ -231,7 +221,7 @@ const Products = () => {
               <h3 data-test="presetProductTitle1" testID="presetProductTitle1" className="h3 text-center mb-2">
                 {t('lightroom_presets_subtitle_1')}
               </h3>
-              <p className="text-center mb-6">{t('lightroom_presets_description')}</p>
+              <p className="text-center mb-6 lg:text-lg mx-6">{t('lightroom_presets_description')}</p>
               <button
                 data-test="presetCheckoutButton1"
                 testID="presetCheckoutButton1"
@@ -256,8 +246,6 @@ const Products = () => {
             </div>
           </div>
 
-          <hr className="my-6" />
-
           {/* Second Preset Product */}
           <div
             data-test="presetProduct2"
@@ -268,7 +256,7 @@ const Products = () => {
               <h3 data-test="presetProductTitle2" testID="presetProductTitle2" className="h3 text-center mb-2">
                 {t('lightroom_presets_subtitle_2')}
               </h3>
-              <p className="text-center mb-6">{t('lightroom_presets_description')}</p>
+              <p className="text-center mb-6 lg:text-lg mx-6">{t('lightroom_presets_description')}</p>
               <button
                 data-test="presetCheckoutButton2"
                 testID="presetCheckoutButton2"

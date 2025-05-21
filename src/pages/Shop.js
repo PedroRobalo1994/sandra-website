@@ -17,19 +17,20 @@ const Shop = () => {
           {/* text */}
           <motion.div initial={{opacity: 0, y:"-80%"}} animate={{opacity: 1, y:0}} exit={{opacity:0, y:"-80%"}} transition={{transition1}} className='flex flex-col lg:items-center text-center'>
             <h1 className='h1 text-pink'>{t('shop')}</h1>
-            <p className='mb-12 max-w-sm'>
+            <p className='mb-12 max-w-sm lg:text-lg mx-6'>
             <p>{t('shop_description_1')}</p>
             <br/>
             <p>{t('shop_description_2')}</p>
             <p>{t('shop_description_3')}</p>
             <br/>
             <strong>
-              <p className='p-1 text-pink'>{t('shop_description_4')}</p>
+              <p className='p-1 text-pink lg:text-lg mx-6'>{t('shop_description_4')}</p>
             </strong>            
             </p>
             <Link to="/shop/products" className="btn rounded-xl mb-[30px] mx-auto lg:mx-0 bg-green" data-test="visitProductsButton">
               {t('visit_my_shop_button')}
-            </Link>          </motion.div>
+            </Link>          
+            </motion.div>
           {/* image grid */}
           <div className='grid grid-cols-2 gap-2'>
             {/* image */}

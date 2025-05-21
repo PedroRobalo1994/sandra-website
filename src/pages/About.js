@@ -31,11 +31,11 @@ const About = () => {
             className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center text-center"
           >
             <h1 className="h1 text-pink">{t('about_me_title')}</h1>
-            <p className="mb-12 max-w-sm">
+            <p className="mb-12 max-w-sm lg:text-lg mx-6">
             {t('about_me_description_1')}
               <br />
               <br />
-              <p className="p-1">
+              <p className="p-1 lg:text-lg mx-6">
               {t('about_me_description_2')}{" "}
                 <strong>
                   <span className="p-1 text-pink ">{t('about_me_description_3')}</span>
